@@ -2,11 +2,8 @@
 <h1 id="logo">Klein</h1>
   <div class="main">
 
-  {{ .Content }}
-
   {{ range .Pages }}
     <p><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-    {{ .Summary }}
   {{ end }}
 
 

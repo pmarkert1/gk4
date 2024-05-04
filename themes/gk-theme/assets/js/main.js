@@ -4,11 +4,11 @@ var lastScrollTop = 0;
 window.addEventListener('scroll', function() {
   var nav = document.querySelector('nav');
   var currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-  if (currentScroll > lastScrollTop) { // scrolling down
+  if (currentScroll > lastScrollTop) {
     nav.style.display = 'none';
-  } else { // scrolling up
-    nav.style.display = 'flex'; // Or whichever display property you want when showing the nav
+  } else {
+    nav.style.display = 'flex';
   }
-  lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // For Mobile or negative scrolling
+  lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
 });
 
