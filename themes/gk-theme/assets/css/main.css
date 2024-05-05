@@ -8,26 +8,25 @@
   margin: 0;
   font-family: "Barlow Condensed", sans-serif;
   text-decoration: none;
- }
+  overflow-x: none;
+}
 
- body {
+body {
   background-color: rgb(149, 139, 139);
-  align-items: center;
- }
+}
 
- nav {
+nav {
   position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: baseline;
   border-bottom: 1px solid black;
   position: fixed;
   height: 23px;
   background-color: white;
-  width: calc(100%);
+  width: 100%;
   overflow: hidden;
- }
+}
 
 nav ul{
   display: flex;
@@ -37,14 +36,14 @@ nav ul{
 nav ul a{
   text-decoration: none;
   color: black;
-  margin-left: 4px;
+  margin-left: 6px;
 }
 
 nav ul a:hover{
 font-weight: 500;
 }
 
-svg{
+nav svg{
   width: 87px;
   position: absolute;
   bottom: -5px;
@@ -56,32 +55,119 @@ visibility: hidden;
 }
 
 .main {
-  margin: 0 3vw 0 3vw;
+  margin: 0 1vw 0 1vw;
   display: flex;
   flex-direction: column;
+  border-top: 1px solid white;
+}
+
+.main a{
+  padding: 0 3vw 0 1vw;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid white;
+  color: black;
+  max-width: 1400px;
+}
+
+.main a p:nth-child(2){
+  font-style: italic;
 }
 
 .main a:hover{
-  background-color: rgb(201, 201, 201);
+  background-color: rgb(157, 146, 146);
+  transition: 0.5s;
 }
 
- #footer {
-  bottom: 2px;
+.prev-image {
+  width: 100%;
+  padding: 0 0 0 30px;
+}
+
+.prev-image img{
+    width: 100%;
+    max-width: 600px;
+    float: right;
+}
+
+.list-info {
+  margin-top: 1vw;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 400px;
+}
+
+#footer {
+  bottom: 0;
   position: fixed;
   background-color: white;
   width: 100%;
   border-top: 1px solid black;
+  align-items: center;
+  height: 23px;
+}
+
+#footer {
+  height: 400px;
+  bottom: -379px;
+  transition: bottom 0.5s ease;
+}
+
+#expand-button-wrapper {
+  margin: -1px 0 0 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 23px;
- }
+}
 
-button {
-  padding: 0 6px 0 6px;
-  height: fit-content;
-  border-radius: 6px;
-  border: 1px solid black;
- }
+#expand-button-wrapper svg {
+  height: 18px;  
+}
 
+#expand-button-wrapper button{
+  margin: 0 0 0 0;
+  padding: 3px 0 0 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#up-arrow {
+  transition: transform 0.5s ease;
+}
+
+#contact-visible {
+  display: flex;
+  justify-content: space-around;
+}
+
+#contact-section {
+  margin-top: 2vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px dotted black;
+}
+
+#contact-visible a{
+  text-decoration: underline;
+  color: black;
+}
  
+@media only screen and (max-width: 600px) {
+  .main a {
+    flex-direction: column;
+  }
+
+  .prev-image{
+    padding: 10px 0 0 0;
+  }
+
+  #contact-section {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

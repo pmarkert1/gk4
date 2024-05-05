@@ -2,7 +2,17 @@
 <h1 id="logo">Klein</h1>
   <div class="main">
   {{ range .Pages }}
-    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a><hr>
+    <a href="{{ .RelPermalink }}">
+      <div class="list-info">
+        <p>{{ .Params.artist }}</p>
+        <p>{{ .Title }}</p>
+        <p>{{ .Params.runtime }}</p>
+      </div>
+
+      <div class="prev-image">
+        <img src="{{ .Params.prevImage }}">
+     </div>
+    </a>
   {{ end }}
 </div>
 {{ end }}
