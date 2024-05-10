@@ -1,5 +1,8 @@
 :root {
   --font-size: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 *{
@@ -119,6 +122,7 @@ visibility: hidden;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  cursor: pointer;
 }
 
 #expand-button-wrapper svg {
@@ -130,7 +134,6 @@ visibility: hidden;
   padding: 3px 0 0 4px;
   background: none;
   border: none;
-  cursor: pointer;
 }
 
 #up-arrow {
