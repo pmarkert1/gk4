@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Galerie Klein'
 
 [[menus.main]]
 name = 'News'
@@ -9,7 +9,7 @@ weight = 10
 
 [[menus.main]]
 name = 'Shows'
-pageRef = '/posts'
+pageRef = '/shows'
 weight = 10
 
 [module]
