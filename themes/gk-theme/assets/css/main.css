@@ -18,6 +18,12 @@ body {
   background-color: rgb(149, 139, 139);
 }
 
+
+/*--HEADER--*/
+header{
+  width: 100%;
+}
+
 nav {
   position: relative;
   display: flex;
@@ -57,6 +63,8 @@ nav svg{
 visibility: hidden;
 }
 
+
+/*--LIST--*/
 .main {
   margin: 0 1vw 2vw 1vw;
   display: flex;
@@ -82,6 +90,27 @@ visibility: hidden;
   transition: 0.5s;
 }
 
+.prev-image {
+  width: 100vw;
+  padding: 0 0 0 30px;
+}
+
+.prev-image img{
+    width: 100%;
+    max-width: 600px;
+    float: right;
+}
+
+.list-info {
+  margin-top: 1vw;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 400px;
+}
+
+
+/*--SINGLE PAGE--*/
 .image-block {
   flex-direction: column;
   width: 100%;
@@ -107,25 +136,8 @@ visibility: hidden;
   margin: 0 0 4px 0;
 }
 
-.prev-image {
-  width: 100vw;
-  padding: 0 0 0 30px;
-}
 
-.prev-image img{
-    width: 100%;
-    max-width: 600px;
-    float: right;
-}
-
-.list-info {
-  margin-top: 1vw;
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  max-width: 400px;
-}
-
+/*--INFO POPUP IN FOOTER--*/
 #footer {
   bottom: 0;
   position: fixed;
@@ -216,4 +228,7 @@ visibility: hidden;
     justify-content: space-around;
     align-items: center;
   }
+}
+
+@media only screen and (min-width: 1401px) {
 }
