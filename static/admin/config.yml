@@ -18,4 +18,11 @@ collections:
       - { label: "Runtime", name: "runtime", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Preview Image", name: "prevImage", widget: "image" }
+      - { label: "Images", name: "images", widget: "list", 
+          fields: 
+            [
+              { label: "Image", name: "src", widget: "image" },
+              { label: "Caption", name: "caption", widget: "string" }
+            ] 
+        }
       - { label: "Body", name: "body", widget: "markdown" }
