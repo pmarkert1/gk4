@@ -10,4 +10,6 @@ images:
     caption: Caption for Image 1
   - src: https://tinypng.com/images/social/website.jpg
     caption: Caption for Image 2
+  - src: /images/uploads/a2dc7ad6-8303-43f9-983d-1887a13b525c.jpg
+    caption: caption for image 3
 ---
