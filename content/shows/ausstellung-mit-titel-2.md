@@ -11,4 +11,3 @@ images:
   - src: https://tinypng.com/images/social/website.jpg
     caption: Caption for Image 2
 ---
-Hallo?
