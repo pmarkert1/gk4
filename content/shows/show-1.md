@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Show 1
-slug: show1
+slug: gaga
 artist: Artist 1
 runtime: today – tomorrow
 date: 2024-06-24T18:15:00.000Z
