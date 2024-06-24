@@ -2,7 +2,7 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Galerie Klein'
 
-contentDir = "content"
+contentDir = "content/shows"
 
 [[menus.main]]
 name = 'News'
