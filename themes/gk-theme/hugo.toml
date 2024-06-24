@@ -2,6 +2,8 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Galerie Klein'
 
+contentDir = "content"
+
 [[menus.main]]
 name = 'News'
 pageRef = '/'

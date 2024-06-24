@@ -16,6 +16,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog", required: false}
       - { label: "Title", name: "title", widget: "string", required: false}
+      - { label: "Slug", name: "slug", widget: "string"}
       - { label: "Artist", name: "artist", widget: "string", required: false}
       - { label: "Runtime", name: "runtime", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
