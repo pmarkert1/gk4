@@ -11,7 +11,7 @@
       <div class="image-block"> 
         {{ range .Params.images }}
         <figure>
-            <img src="{{ .src }}" alt="Image">
+            <img src="{{ .src }}" alt="{{ .alt }}" loading="lazy">
             <figcaption>{{ .caption }}</figcaption>
         </figure>
         {{ end }}

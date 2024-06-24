@@ -109,6 +109,16 @@ visibility: hidden;
   max-width: 400px;
 }
 
+.blur-load {
+  background-size: cover;
+  background-position: center;
+}
+
+.blur-load img {
+  object-position: center;
+  object-fit: cover;
+}
+
 
 /*--SINGLE PAGE--*/
 .image-block {

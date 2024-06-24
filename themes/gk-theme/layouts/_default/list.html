@@ -9,8 +9,8 @@
         <p>{{ .Params.runtime }}</p>
       </div>
 
-      <div class="prev-image">
-        <img src="{{ .Params.prevImage }}">
+      <div class="prev-image blur-load" style="background-image: none;">
+        <img src="{{ .Params.prevImage }}" loading="lazy">
      </div>
     </a>
   {{ end }}
