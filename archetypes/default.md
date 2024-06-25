@@ -7,4 +7,5 @@ prevImage: ""
 images:
   - src: ""
     caption: ""
+    alt: ""
 ---

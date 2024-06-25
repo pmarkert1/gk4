@@ -1,12 +1,12 @@
 {{ define "main" }}
 <h1 id="logo">Klein</h1>
-  <div class="main">
-      <p class="single-infos">
-      {{ .Params.artist }}<br>
-      {{ .Title }}<br>
-      {{ .Params.runtime }}<br>
-      {{ .Content }} 
-      </p>  
+  <div class="single-page">
+      <div class="single-infos">
+      <section>{{ .Params.artist }}<br>
+      <i>{{ .Title }}</i><br>
+      {{ .Params.runtime }}</section><br>
+      <article>{{ .Content }}</article>
+      </div>  
   
       <div class="image-block"> 
         {{ range .Params.images }}
@@ -16,6 +16,6 @@
         </figure>
         {{ end }}
       </div>
-  </div>
+    </div>    
 
 {{ end }}
