@@ -11,6 +11,8 @@ images:
     caption: caption 3
   - src: /images/uploads/img_6244.jpg
     caption: another subline
+  - src: /images/uploads/camphoto_959030623.jpeg
+    caption: food
 ---
 
 Sample for short text.
