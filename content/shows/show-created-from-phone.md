@@ -11,4 +11,6 @@ images:
     caption: image copyright
   - src: /images/uploads/img_6244.jpg
     caption: image 2
+  - src: /images/uploads/img_6406.jpeg
+    caption: hose
 ---
