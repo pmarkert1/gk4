@@ -21,12 +21,12 @@ collections:
       - { label: "Runtime", name: "runtime", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Preview Image", name: "prevImage", widget: "image" }
-      - { label: "Images", name: "images", widget: "list", 
+      - { label: "Images", name: "images", widget: "list", required: false, 
           fields: 
             [
               { label: "Image", name: "src", widget: "image" },
-              { label: "Caption", name: "caption", widget: "string" }
-             # { label: "Alt Tag", name: "alt", widget: "string" }
+              { label: "Caption", name: "caption", widget: "string", required: false }
+              { label: "Alt Tag", name: "alt", widget: "string", required: false }
             ] 
         }
       - { label: "Body", name: "body", widget: "markdown", required: false}
