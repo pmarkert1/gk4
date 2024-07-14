@@ -24,9 +24,9 @@ collections:
       - { label: "Images", name: "images", widget: "list", required: false, 
           fields: 
             [
-              { label: "Image", name: "src", widget: "image" },
+              { label: "Image", name: "src", widget: "image" }
               { label: "Caption", name: "caption", widget: "string", required: false }
-              { label: "Alt Tag", name: "alt", widget: "string", required: false }
+                            { label: "Alt Tag", name: "alt", widget: "string", required: false }
             ] 
         }
       - { label: "Body", name: "body", widget: "markdown", required: false}
