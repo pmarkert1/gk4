@@ -26,14 +26,21 @@ collections:
             [
               { label: "Image", name: "src", widget: "image" },
               { label: "Caption", name: "caption", widget: "string", required: false },
-                            { label: "Alt Tag", name: "alt", widget: "string", required: false }
+              { label: "Alt Tag", name: "alt", widget: "string", required: false }
             ] 
         }
       - { label: "Body", name: "body", widget: "markdown", required: false}
 
-      - name: "home" # Used in routes, e.g., /admin/collections/blog
+  - name: "home" # Collection for home content
     label: "Home" # Used in the UI
-    folder: "content" # The path to the folder where the documents are stored
-    create: false # Allow users to create new documents in this collection
-    fields: # The fields for each document, usually in front matter
-      - { label: "Body", name: "body", widget: "markdown", required: false}
+    files:
+      - label: "Index Page"
+        name: "index"
+        file: "content/_index.md"
+        fields:
+          - { label: "Body", name: "body", widget: "markdown", required: false }
+      - label: "Footer"
+        name: "footer"
+        file: "content/footer.md"
+        fields:
+          - { label: "Body", name: "body", widget: "markdown", required: false }
