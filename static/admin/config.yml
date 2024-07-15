@@ -43,21 +43,21 @@ collections:
         name: "footer"
         file: "content/footer.md"
         fields:
-          - { label: "Instagram", name: "instagram", widget: "markdown", required: false, 
+          - { label: "Instagram", name: "instagram", widget: "object", required: false, 
               fields:
               [
                 { label: "Link", name: "instagramLink", widget: "markdown", required: false},
                 { label: "URL", name: "instagramSrc", widget: "markdown", required: false}
               ]    
           }
-          - { label: "Mail", name: "mail", widget: "markdown", required: false, 
+          - { label: "Mail", name: "mail", widget: "object", required: false, 
               fields:
               [
                 { label: "Link", name: "mailLink", widget: "markdown", required: false},
                 { label: "Mail Address", name: "mailAdress", widget: "markdown", required: false}
               ]    
           }
-          - { label: "Address", name: "adress", widget: "markdown", required: false, 
+          - { label: "Address", name: "adress", widget: "object", required: false, 
               fields:
               [
                 { label: "Name", name: "galleryName", widget: "markdown", required: false},
