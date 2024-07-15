@@ -46,24 +46,24 @@ collections:
           - { label: "Instagram", name: "instagram", widget: "list", required: false, 
               fields:
               [
-                { label: "Link", name: "instagramLink", widget: "markdown" required: false},
-                { label: "URL", name: "instagramSrc", widget: "markdown" required: false}
+                { label: "Link", name: "instagramLink", widget: "markdown", required: false},
+                { label: "URL", name: "instagramSrc", widget: "markdown", required: false}
               ]    
           }
           - { label: "Mail", name: "mail", widget: "list", required: false, 
               fields:
               [
-                { label: "Link", name: "mailLink", widget: "markdown" required: false},
-                { label: "Mail Address", name: "mailAdress", widget: "markdown" required: false}
+                { label: "Link", name: "mailLink", widget: "markdown", required: false},
+                { label: "Mail Address", name: "mailAdress", widget: "markdown", required: false}
               ]    
           }
           - { label: "Address", name: "adress", widget: "list", required: false, 
               fields:
               [
-                { label: "Name", name: "galleryName", widget: "markdown" required: false},
-                { label: "c/o", name: "ownerName", widget: "markdown" required: false},
-                { label: "Street", name: "streetName", widget: "markdown" required: false},
-                { label: "Street", name: "streetName", widget: "markdown" required: false},
+                { label: "Name", name: "galleryName", widget: "markdown", required: false},
+                { label: "c/o", name: "ownerName", widget: "markdown", required: false},
+                { label: "Street", name: "streetName", widget: "markdown", required: false},
+                { label: "Street", name: "streetName", widget: "markdown", required: false},
                 { label: "City", name: "cityName", widget: "markdown", required: false }
               ]    
           }
