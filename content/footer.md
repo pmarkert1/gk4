@@ -5,7 +5,7 @@ instagram:
 mail:
    mailLink: "Mail"
    mailAdress: "example@example.com"
-address:
+adress:
    galleryName: "Galerie Klein"
    ownerName: "c/o Matthias Klein"
    streetName: "Eisenbahnstraße 109"
