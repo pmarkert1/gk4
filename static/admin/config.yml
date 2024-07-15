@@ -34,7 +34,7 @@ collections:
   - name: "home" # Collection for home content
     label: "Home" # Used in the UI
     files:
-      - label: "Index Page"
+      - label: "Home"
         name: "index"
         file: "content/_index.md"
         fields:
@@ -43,4 +43,28 @@ collections:
         name: "footer"
         file: "content/footer.md"
         fields:
-          - { label: "Body", name: "body", widget: "markdown", required: false }
+          - { label: "Instagram", name: "instagram", widget: "list", required: false 
+              fields:
+              [
+                { label: "Link", name: "instagramLink", widget: "markdown" required: false}
+                { label: "URL", name: "instagramSrc", widget: "markdown" required: false}
+              ]    
+          }
+          - { label: "Mail", name: "mail", widget: "list", required: false 
+              fields:
+              [
+                { label: "Link", name: "mailLink", widget: "markdown" required: false}
+                { label: "Mail Address", name: "mailAdress", widget: "markdown" required: false}
+              ]    
+          }
+          - { label: "Address", name: "adress", widget: "list", required: false 
+              fields:
+              [
+                { label: "Name", name: "galleryName", widget: "markdown" required: false}
+                { label: "c/o", name: "ownerName", widget: "markdown" required: false}
+                { label: "Street", name: "streetName", widget: "markdown" required: false}
+                { label: "Street", name: "streetName", widget: "markdown" required: false}
+                { label: "City", name: "cityName", widget: "markdown", required: false }
+              ]    
+          }
+          - { label: "Additional Info", name: "body", widget: "markdown", required: false }
