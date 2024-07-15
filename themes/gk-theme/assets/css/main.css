@@ -82,7 +82,10 @@ visibility: hidden;
   transition: 0.5s;
 }
 
-
+.main image{
+  width: 100%;
+  max-width: 1000px;
+}
 
 /*************************SINGLE PAGE****/
 .single-page{
