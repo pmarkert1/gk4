@@ -7,4 +7,4 @@ Recently:
 
 THISAHIFOHAWOIFHAOIFH
 
-![](https://www.aufwaerts-design.de/wp-content/uploads/2014/09/personalberatung-flyer-corporate-design-1500-768x475.jpg)
+![](https://images.surferseo.art/47fef605-6063-4bd6-a36c-c257db507f80.png)
