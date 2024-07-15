@@ -63,7 +63,6 @@ collections:
                 { label: "Name", name: "galleryName", widget: "markdown", required: false},
                 { label: "c/o", name: "ownerName", widget: "markdown", required: false},
                 { label: "Street", name: "streetName", widget: "markdown", required: false},
-                { label: "Street", name: "streetName", widget: "markdown", required: false},
                 { label: "City", name: "cityName", widget: "markdown", required: false }
               ]    
           }
