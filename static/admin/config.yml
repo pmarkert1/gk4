@@ -32,18 +32,18 @@ collections:
       - { label: "Body", name: "body", widget: "markdown", required: false}
 
 
-      - name: "index" # New collection for _index.md
-    label: "Index Page"
-        name: "index"
-        file: "content/_index.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+- name: "index" # New collection for _index.md
+  label: "Index Page"
+  name: "index"
+  file: "content/_index.md"
+  fields:
+    - { label: "Title", name: "title", widget: "string" }
+    - { label: "Body", name: "body", widget: "markdown" }
 
-  - name: "footer" # New collection for footer.md
-    label: "Footer"
-        name: "footer"
-        file: "content/footer.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+- name: "footer" # New collection for footer.md
+  label: "Footer"
+  name: "footer"
+  file: "content/footer.md"
+  fields:
+    - { label: "Title", name: "title", widget: "string" }
+    - { label: "Body", name: "body", widget: "markdown" }
