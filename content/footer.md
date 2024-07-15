@@ -1,16 +1,19 @@
-+++
-instagramLink = "Instagram"
-instagramSrc = "https://www.instagram.com/galerie.klein/"
-mailLink = "Mail"
-mailAdress = "example@example.com"
-galleryName = "Galerie Klein"
-ownerName = "c/o Matthias Klein"
-streetName = "Eisenbahnstraße 109"
-cityName = "04315 Leipzig"
-additionalInfo = ""
-+++
+---
+instagram:
+   instagramLink: "Instagram"
+   instagramSrc: "https://www.instagram.com/galerie.klein/"
+mail:
+   mailLink: "Mail"
+   mailAdress: "example@example.com"
+address:
+   galleryName: "Galerie Klein"
+   ownerName: "c/o Matthias Klein"
+   streetName: "Eisenbahnstraße 109"
+   cityName: "04315 Leipzig"
+additionalInfo: ""
+---
 
-Additional \
-info \
- goes \
+Additional
+info
+ goes
   here
