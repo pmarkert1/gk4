@@ -4,8 +4,6 @@ date: 2023-01-01T08:00:00-07:00
 draft: false
 ---
 Recently:\
-THISAHIFOHAWOIFHAOIFH
+This Area for recent infos, recent Invitations, Posters, Announcements
 
-ASDOHF
-
-![](https://images.surferseo.art/47fef605-6063-4bd6-a36c-c257db507f80.png)
+![](https://placehold.co/1000x800/FFA07A/000000?text=Announcement+goes+here&font=papyrus)
