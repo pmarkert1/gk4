@@ -5,7 +5,7 @@ slug: gaga
 artist: Künstlerin Name, Künstler Name
 runtime: 11.12.2013 – 12.13.2014
 date: 2024-06-24T18:15:00.000Z
-prevImage: /images/uploads/img_6244.jpg
+prevImage: https://placehold.co/1200x1000/90EE90/000000?text=Sample+Exhibition&font=papyrus
 images:
   - src: /images/uploads/img_6244.jpg
     caption: Caption 1
